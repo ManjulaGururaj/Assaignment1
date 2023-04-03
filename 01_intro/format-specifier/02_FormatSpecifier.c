@@ -20,7 +20,7 @@
 // Main Function
 int main()
 {
-	 int integer = 123456;
+     int integer = 123456;
      char character = 'A';
      float float_num = 3.2;
      double double_num = 987.123456;
