@@ -6,11 +6,11 @@
  * the proprietary works, trade secrets, and copyrights of Embitel or its licensors.
  * For further information, contact community.ruggedboard.com / info@ruggedboard.com
  *
- * Application: 
- * Brief: 
+ * Application: Assignment Operators.
+ * Brief: c program to show usage of assignment operators = , += , -= , *= , /=.
  * Author: Manjula Patil ( manjulasn.123@gmail.com )
  * Title: Project Engineer
- * Last Modified Date: 19.09.2022
+ * Last Modified Date: 21.03.2023
  *
 /*********************************************************************************************/
 
