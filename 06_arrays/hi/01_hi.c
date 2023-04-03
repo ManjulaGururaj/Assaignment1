@@ -8,7 +8,7 @@
  *
  * Application: 
  * Brief: 
- * Author: Manjula Patil  ( manjulasn.123@gmail.com )
+ * Author: Manjula Patil ( manjulasn.123@gmail.com )
  * Title: Project Engineer
  * Last Modified Date: 19.09.2022
  *
@@ -16,14 +16,21 @@
 
 // Header File
 #include <stdio.h>
-#include "math.h"
-
-void sum(void);
+#include <string.h>
 
 // Main Function
 int main()
 {
-     sum();
+    char input[3];
+    printf("Enter 'hi': ");
+    scanf("%s", input);
+    if (strcmp(input, "hi") == 0)
+     {
+        printf("Hello\n");
+     } 
+     else {
+        printf("Did not enter 'hi'\n");
+     }
      return 0;
 }
 

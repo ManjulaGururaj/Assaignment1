@@ -8,7 +8,7 @@
  *
  * Application: 
  * Brief: 
- * Author: Manjula Patil  ( manjulasn.123@gmail.com )
+ * Author: Manjula Patil ( manjulasn.123@gmail.com )
  * Title: Project Engineer
  * Last Modified Date: 19.09.2022
  *
@@ -16,14 +16,34 @@
 
 // Header File
 #include <stdio.h>
-#include "math.h"
-
-void sum(void);
 
 // Main Function
 int main()
 {
-     sum();
+    int matrix[100][100];
+    int rows, cols, i, j;
+
+    printf("Enter the number of rows: ");
+    scanf("%d", &rows);
+
+    printf("Enter the number of columns: ");
+    scanf("%d", &cols);
+
+    printf("Enter the elements of the matrix:\n");
+    for(i = 0; i < rows; i++) {
+        for(j = 0; j < cols; j++) {
+            scanf("%d", &matrix[i][j]);
+        }
+    }
+
+    printf("The matrix is:\n");
+    for(i = 0; i < rows; i++) {
+        for(j = 0; j < cols; j++) {
+            printf("%d ", matrix[i][j]);
+        }
+        printf("\n");
+    }
+
      return 0;
 }
 

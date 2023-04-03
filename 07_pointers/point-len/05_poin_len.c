@@ -16,14 +16,26 @@
 
 // Header File
 #include <stdio.h>
-#include "math.h"
-
-void sum(void);
 
 // Main Function
 int main()
 {
-     sum();
+    char str[100];
+    char *ptr;
+    int len = 0;
+
+    printf("Enter a string: ");
+    scanf("%s", str);
+
+    ptr = str;
+
+    while (*ptr != '\0') {
+        len++;
+        ptr++;
+    }
+
+    printf("Length of the givrn string is: %d\n", len);
+
      return 0;
 }
 

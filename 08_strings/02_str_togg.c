@@ -8,22 +8,19 @@
  *
  * Application: 
  * Brief: 
- * Author: Manjula Patil  ( manjulasn.123@gmail.com )
- * Title: Project Engineer
+ * Author: Natarajan S  ( natarajan.s@ruggedboard.com )
+ * Title: Program Manager / Trainner
  * Last Modified Date: 19.09.2022
  *
 /*********************************************************************************************/
 
 // Header File
 #include <stdio.h>
-#include "math.h"
-
-void sum(void);
 
 // Main Function
 int main()
 {
-     sum();
+     
      return 0;
 }
 

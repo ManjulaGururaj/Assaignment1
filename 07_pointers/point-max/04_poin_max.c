@@ -8,7 +8,7 @@
  *
  * Application: 
  * Brief: 
- * Author: Manjula Patil  ( manjulasn.123@gmail.com )
+ * Author: Manjula Patil ( manjulasn.123@gmail.com )
  * Title: Project Engineer
  * Last Modified Date: 19.09.2022
  *
@@ -16,14 +16,28 @@
 
 // Header File
 #include <stdio.h>
-#include "math.h"
-
-void sum(void);
 
 // Main Function
 int main()
 {
-     sum();
+    int num1, num2;
+    int *ptr1, *ptr2;
+
+    printf("Enter first number: ");
+    scanf("%d", &num1);
+
+    printf("Enter Second number: ");
+    scanf("%d", &num2);
+
+    ptr1 = &num1;
+    ptr2 = &num2;
+
+    if (*ptr1 > *ptr2) {
+        printf("%d is the maximum number.", *ptr1);
+    } else {
+        printf("%d is the maximum number.", *ptr2);
+    }
+
      return 0;
 }
 
